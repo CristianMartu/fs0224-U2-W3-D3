@@ -25,6 +25,12 @@
         flex-direction: column;
         justify-content: space-between;
       }
+      #card {
+        padding-inline: 0.5rem;
+        padding-block: 1rem;
+        max-height: fit-content;
+        width: 500px;
+      }
     </style>
   </head>
   <body class="container">
@@ -48,9 +54,8 @@
             class="collapse position-realtive top-0 end-0"
             id="collapseWidthExample"
           >
-            <div class="card card-body">
-              This is some placeholder content for a horizontal collapse. It's
-              hidden by default and shown when triggered.
+            <div id="card" class="card">
+              <ol id="listShop" class="mb-0"></ol>
             </div>
           </div>
         </div>
